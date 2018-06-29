@@ -1,0 +1,22 @@
+- filepath: /path/to/video/file
+  sequence:
+    - begin: 00:00:00
+      end: 00:01:00
+      category: normal
+    - begin: 00:01:01
+      end: 00:02:00
+      category: warning
+    - begin: 00:02:00
+      end: 00:10:00
+      category: anomaly
+- filepath: /path/to/video/file
+  sequence:
+    - begin: 00:00:00
+      end: 01:00:00
+      category: normal
+    - begin: 01:01:00
+      end: 02:00:00
+      category: warning
+    - begin: 02:00:00
+      end: 10:00:00
+      category: anomaly
